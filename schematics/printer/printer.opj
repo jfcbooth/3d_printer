@@ -14,16 +14,62 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LCD
+      (FullPartName "LCD.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    ("Heater Cartridge"
+      (FullPartName "Heater Cartridge.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (PORTRIGHT-L
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (Rpi
-      (FullPartName "Rpi.Normal")
-      (LibraryName "C:\USERS\BOOTHM\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("End Stop"
+      (FullPartName "End Stop.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (SKR
+      (FullPartName "SKR.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
     (0
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    ("Buck Converter"
+      (FullPartName "Buck Converter.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (Rpi
+      (FullPartName "Rpi.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (SSR
+      (FullPartName "SSR.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    ("AC/DC Power supply"
+      (FullPartName "AC/DC Power supply.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName
+         "G:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("Power supply"
+      (FullPartName "Power supply.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName
@@ -45,10 +91,6 @@
       (FullPartName "circuit breaker.Normal")
       (LibraryName "G:\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
-    (SSR
-      (FullPartName "SSR.Normal")
-      (LibraryName "G:\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
     (Fuse
       (FullPartName "Fuse.Normal")
       (LibraryName "G:\PRINTER\PARTS.OLB")
@@ -57,29 +99,22 @@
       (FullPartName "Switch.Normal")
       (LibraryName "G:\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
-    (GND_EARTH
-      (LibraryName
-         "G:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (GND_POWER
       (LibraryName
          "G:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "boothm")
-  (LastUsedLibraryBrowseDirectory
-     "G:\Program Files\Cadence\SPB_17.2\tools\capture\library\pspice")
+  (MPSSessionName "user")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\printer.dsn")
       (Path "Design Resources" ".\printer.dsn" "AC Schematic")
-      (Path "Design Resources" ".\printer.dsn" "Power Supply")
       (Path "Design Resources" ".\printer.dsn" "RPi")
       (Path "Design Resources" ".\printer.dsn" "SKR Board")
-      (Path "Design Resources" ".\printer.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\parts.olb")
-      (Select "Design Resources" ".\printer.dsn" "Power Supply" "Power Supply"))
+      (Select "Design Resources" "Library" ".\parts.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -89,28 +124,20 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1710 23 533")
-        (Scroll "1107 753")
-        (Zoom "348"))
-      (Path "C:\USERS\BOOTHM\DESKTOP\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
-      (Schematic "RPi")
-      (Page "Rpi"))
+        (Placement "44 2 3 -1 -1 -8 -31 130 1204 130 490")
+        (Scroll "136 290")
+        (Zoom "200"))
+      (Path "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
+      (Schematic "SKR Board")
+      (Page "SKR Board"))
     (Doc
-      (Type "COrSchematicDoc")
+      (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 574 130 580")
-        (Scroll "0 357")
-        (Zoom "174")
-        (Occurrence "/"))
-      (Path "C:\USERS\BOOTHM\DESKTOP\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
-      (Schematic "AC Schematic")
-      (Page "AC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 208 1614 208 667")
-        (Scroll "-306 0")
-        (Zoom "100"))
-      (Path "C:\USERS\BOOTHM\DESKTOP\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
-      (Schematic "Power Supply")
-      (Page "Power Supply"))))
+        (Placement "44 0 1 -1 -1 -8 -31 78 1152 78 438")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1336 379")
+        (Zoom "364"))
+      (Path "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (Package "LCD"))))
