@@ -14,8 +14,63 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Fan
+      (FullPartName "Fan.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Motor
+      (FullPartName "Motor.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("Peltier Plate"
+      (FullPartName "Peltier Plate.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    ("Buck Converter"
+      (FullPartName "Buck Converter.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (SKR
+      (FullPartName "SKR.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (Thermistor
+      (FullPartName "Thermistor.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("Heated Bed"
+      (FullPartName "Heated Bed.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (DeviceIndex "0"))
+    (SSR
+      (FullPartName "SSR.Normal")
+      (LibraryName
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
     (LCD
       (FullPartName "LCD.Normal")
@@ -25,12 +80,6 @@
       (FullPartName "Heater Cartridge.Normal")
       (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
-    (PORTLEFT-L
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -39,41 +88,21 @@
       (FullPartName "End Stop.Normal")
       (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
-    (SKR
-      (FullPartName "SKR.Normal")
-      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
     (0
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
-    ("Buck Converter"
-      (FullPartName "Buck Converter.Normal")
-      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
     (Rpi
       (FullPartName "Rpi.Normal")
-      (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
-    (SSR
-      (FullPartName "SSR.Normal")
       (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
     ("AC/DC Power supply"
       (FullPartName "AC/DC Power supply.Normal")
       (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (DeviceIndex "0"))
-    (GND_EARTH
-      (LibraryName
-         "G:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     ("Power supply"
       (FullPartName "Power supply.Normal")
       (LibraryName "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName
-         "G:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (PORTRIGHT-R
       (LibraryName
@@ -86,35 +115,21 @@
     ("Space Heater"
       (FullPartName "Space Heater.Normal")
       (LibraryName "G:\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
-    ("circuit breaker"
-      (FullPartName "circuit breaker.Normal")
-      (LibraryName "G:\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
-    (Fuse
-      (FullPartName "Fuse.Normal")
-      (LibraryName "G:\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
-    (Switch
-      (FullPartName "Switch.Normal")
-      (LibraryName "G:\PRINTER\PARTS.OLB")
-      (DeviceIndex "0"))
-    (GND_POWER
-      (LibraryName
-         "G:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "user")
+  (MPSSessionName "boothm")
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\printer.dsn")
       (Path "Design Resources" ".\printer.dsn" "AC Schematic")
+      (Path "Design Resources" ".\printer.dsn" "Buck Converter Parts")
       (Path "Design Resources" ".\printer.dsn" "RPi")
       (Path "Design Resources" ".\printer.dsn" "SKR Board")
+      (Path "Design Resources" ".\printer.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\parts.olb")
-      (Select "Design Resources" "Library" ".\parts.olb"))
+      (Select "Design Resources" ".\printer.dsn" "Design Cache" "SKR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -122,22 +137,46 @@
         (Placement "44 0 1 -1 -1 -8 -31 0 479 0 476"))
       (Tab 0))
     (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 130 1204 130 490")
-        (Scroll "136 290")
-        (Zoom "200"))
-      (Path "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
-      (Schematic "SKR Board")
-      (Page "SKR Board"))
-    (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1152 78 438")
+        (Placement "44 0 1 -1 -1 -8 -31 156 1562 156 615")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "1336 379")
-        (Zoom "364"))
-      (Path "C:\USERS\USER\DESKTOP\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
-      (Package "LCD"))))
+        (Scroll "969 121")
+        (Zoom "262"))
+      (Path
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (Package "SKR"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1484 78 537")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2590 747")
+        (Zoom "485"))
+      (Path
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
+      (Package "Motor"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1684 52 507")
+        (Scroll "-306 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
+      (Schematic "SKR Board")
+      (Page "SKR Board"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1588 182 641")
+        (Scroll "0 140")
+        (Zoom "200"))
+      (Path
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
+      (Schematic "Buck Converter Parts")
+      (Page "Converters"))))
