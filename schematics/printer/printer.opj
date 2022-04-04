@@ -139,33 +139,21 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1562 156 615")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "969 121")
-        (Zoom "262"))
+        (Scroll "1074 33")
+        (Zoom "244"))
       (Path
          "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
       (Package "SKR"))
     (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1484 78 537")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2590 747")
-        (Zoom "485"))
-      (Path
-         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PARTS.OLB")
-      (Package "Motor"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1684 52 507")
-        (Scroll "-306 0")
-        (Zoom "100"))
+        (Scroll "-484 -4")
+        (Zoom "87"))
       (Path
          "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
       (Schematic "SKR Board")
@@ -174,9 +162,19 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 182 1588 182 641")
-        (Scroll "0 140")
+        (Scroll "0 176")
         (Zoom "200"))
       (Path
          "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
       (Schematic "Buck Converter Parts")
-      (Page "Converters"))))
+      (Page "Converters"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1818 182 641")
+        (Scroll "119 348")
+        (Zoom "200"))
+      (Path
+         "C:\USERS\BOOTHM\DOCUMENTS\GITHUB\M3DD\SCHEMATICS\PRINTER\PRINTER.DSN")
+      (Schematic "RPi")
+      (Page "Rpi"))))
